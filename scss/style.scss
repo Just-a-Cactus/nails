@@ -1,0 +1,116 @@
+@import "normalize";
+@import "layout";
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,600|Source+Sans+Pro:400,600|Yeseva+One&subset=cyrillic');
+
+$Oswald: 'Oswald',
+sans-serif;
+$Source: 'Source Sans Pro',
+sans-serif;
+$Yeseva: 'Yeseva One',
+cursive;
+$Roze:#ff96d5;
+
+body {
+	font: 400 18px/1.28 $Source;
+	color: black;
+}
+
+/* Layout */
+.ba-container {
+	padding-left: 20px;
+	padding-right: 20px;
+	max-width: 1200px;
+}
+
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button {
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button {
+	display: inline-block;
+}
+
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover {}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {}
+
+textarea {}
+
+.ba-hidden {
+	display: none;
+}
+
+.ba-col-2 {
+	background-color: black;
+
+	&--white {
+		background-color: white;
+	}
+}
+
+.ba-col-10 {
+	background-color: white;
+
+	&--black {
+		background-color: black;
+	}
+}
+
+.ba-header {
+	color: white;
+	position: fixed;
+	padding: 104px 0 10px 18px;
+
+	&__menu {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+
+		li+li {
+			padding-top: 80px;
+		}
+
+		a {
+			font: 600 34px/1.47 $Oswald;
+			text-transform: uppercase;
+			text-decoration: none;
+			color: inherit;
+
+			&:hover {
+				color: $Roze;
+			}
+		}
+	}
+
+	svg {
+		&:hover {
+			color: $Roze;
+		}
+	}
+}
