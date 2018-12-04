@@ -66,24 +66,15 @@ textarea {}
 	display: none;
 }
 
-.ba-col-2 {
-	background-color: black;
-
-	&--white {
-		background-color: white;
-	}
-}
-
-.ba-col-10 {
-	background-color: white;
-
-	&--black {
-		background-color: black;
-	}
+.ba-main {
+	padding-left: 268px;
 }
 
 .ba-header {
+	background-color: black;
+	width: 268px;
 	color: white;
+	height: 100%;
 	position: fixed;
 	padding: 104px 0 10px 18px;
 
