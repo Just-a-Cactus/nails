@@ -164,7 +164,23 @@ textarea {}
 		font-size: 200px;
 		margin-bottom: 22px;
 	}
+}
 
+.ba-container--p5 {
+	position: relative;
+	// color: white;
+
+	img:first-of-type {
+		margin-left: 13px;
+	}
+
+	.ba-back-text {
+		position: absolute;
+		top: 16px;
+		left: 130px;
+		font-size: 200px;
+		margin-bottom: 22px;
+	}
 }
 
 .ba-button-podr {
@@ -298,6 +314,73 @@ textarea {}
 		line-height: 1.49;
 		position: relative;
 		z-index: 10;
+	}
+
+	&--p5-t1 {
+		top: 133px;
+		left: 43px;
+		font-size: 24px;
+		position: absolute;
+		z-index: 10;
+	}
+}
+
+.wrap-img {
+	position: relative;
+
+	svg {
+		position: absolute;
+		top: 80%;
+		left: 35px;
+		display: none;
+	}
+}
+
+.img-slider {
+	display: flex;
+	justify-content: space-between;
+
+	img {
+		padding: 0 5px;
+	}
+
+	.wrap-img:hover svg {
+		display: block;
+	}
+
+	.wrap-img:hover img {
+		transition-duration: .2s;
+		transform-origin: bottom right;
+		transform: scale(0.75, 1);
+	}
+}
+
+.ba-main-text {
+	position: absolute;
+	top: 165px;
+	left: 39%;
+	max-width: 450px;
+
+	&:after {
+		content: "";
+		display: block;
+		height: 1px;
+		width: 900px;
+		background-color: black;
+		margin-left: -300px;
+	}
+
+
+	span {
+		font-weight: 600;
+	}
+
+	p:last-of-type {
+		padding-bottom: 35px;
+	}
+
+	p+p {
+		padding-bottom: 5px;
 	}
 }
 
