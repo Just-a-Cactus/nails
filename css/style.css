@@ -913,7 +913,6 @@ select {
   position: relative;
   padding-bottom: 100px; }
   .ba-button-row a {
-    background-color: black;
     padding: 20px 57px 16px 47px;
     border: 1px solid black;
     text-decoration: none;
@@ -1034,7 +1033,7 @@ footer {
   padding-top: 56px; }
   .ba-contact-form > input:last-of-type {
     margin-top: 34px;
-    margin-bottom: 145px; }
+    margin-bottom: 155px; }
   .ba-contact-form h3 {
     text-transform: uppercase;
     font: 400 24px/1 "Oswald", sans-serif;
