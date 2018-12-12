@@ -911,7 +911,7 @@ select {
 
 .ba-button-row {
   position: relative;
-  padding-bottom: 80px; }
+  padding-bottom: 100px; }
   .ba-button-row a {
     padding: 20px 57px 16px 47px;
     border: 1px solid black;
@@ -937,7 +937,6 @@ select {
     margin-left: -100px;
     padding-bottom: 180px; }
     .ba-button-row--p6-b2 a {
-      background-color: black;
       margin: 0;
       top: 39px;
       right: 78px;
