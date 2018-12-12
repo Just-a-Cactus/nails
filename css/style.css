@@ -954,7 +954,7 @@ footer {
   padding-bottom: 0;
   text-align: center;
   border-top: 1px solid white;
-  position: absolute;
+  position: relative;
   bottom: 0;
   left: 0;
   right: 0; }
