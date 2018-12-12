@@ -913,6 +913,7 @@ select {
   position: relative;
   padding-bottom: 100px; }
   .ba-button-row a {
+    background-color: black;
     padding: 20px 57px 16px 47px;
     border: 1px solid black;
     text-decoration: none;
