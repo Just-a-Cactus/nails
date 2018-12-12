@@ -568,6 +568,8 @@ select {
 
 .ba-container--p3 {
   padding: 30px 30px 20px 30px; }
+  .ba-container--p3 .ba-col-8 {
+    margin-bottom: 30px; }
   .ba-container--p3 .ba-back-text {
     line-height: 1.056; }
 
@@ -1033,7 +1035,7 @@ footer {
   padding-top: 56px; }
   .ba-contact-form > input:last-of-type {
     margin-top: 34px;
-    margin-bottom: 155px; }
+    margin-bottom: 145px; }
   .ba-contact-form h3 {
     text-transform: uppercase;
     font: 400 24px/1 "Oswald", sans-serif;

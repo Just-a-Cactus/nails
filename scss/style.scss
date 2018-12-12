@@ -152,6 +152,12 @@ textarea {}
 .ba-container--p3 {
 	padding: 30px 30px 20px 30px;
 
+	.ba-col-8{
+		margin-bottom: 30px;
+	}
+
+
+
 	.ba-back-text {
 		line-height: 1.056;
 	}
@@ -753,7 +759,7 @@ footer {
 .ba-contact-form {
 	>input:last-of-type {
 		margin-top: 34px;
-		margin-bottom: 155px;
+		margin-bottom: 145px;
 	}
 
 	position: relative;
